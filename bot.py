@@ -28,7 +28,7 @@ def any_msg(message):
 def longname(call):
     bot.edit_message_caption(chat_id=call.message.chat.id,message_id=call.message.message_id,caption='Латте добавлен в корзину')
     if call.data == "addToCartLatte":
-        basket.append('Латте')
+        basket.append('Латтeeeе')
     print(basket)
 
 
